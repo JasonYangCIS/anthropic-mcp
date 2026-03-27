@@ -79,7 +79,7 @@ def format_document(
     </document_id>
 
     Add in headers, bullet points, tables, etc as necessary. Feel free to add in structure.
-    Use the 'edit_document' tool to edit the document. After the document has been reformatted...
+    Use the 'edit_document' tool to edit the document. After the document has been edited, respond with the final version of the doc. Don't explain your changes.
     """
     return [
         base.UserMessage(prompt)
